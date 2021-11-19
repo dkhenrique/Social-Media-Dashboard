@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- Icons -->
+    <link rel="stylesheet" href="fonts/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  </head>
+  <body>
+    <header id="header">
+      <div class="container grid">
+        <nav>
+          <div class="text">
+            <h1 class="title">Social Media Dashboard</h1>
+            <h2 class="sub-title">Total Followers: 23,004</h2>
+          </div>
+          <div class="divider"></div>
+          <div class="menu-toggle">
+            <h2 class="sub-title">Dark Mode</h2>
+            <div class="toggle">
+              <input id="switch" type="checkbox" name="theme" />
+              <label for="switch">Toggle</label>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="cards grid">
+            <div class="card facebook">
+              <header>
+                <div class="image">
+                  <img src="images/icon-facebook.svg" alt="" />
+                </div>
+                <h3 class="title">@danieldk</h3>
+              </header>
+              <div class="stats">
+                <h1 class="title">1987</h1>
+                <p class="sub-title">followers</p>
+              </div>
+              <div class="new-stats">
+                <div class="image">
+                  <img src="images/icon-up.svg" alt="" />
+                </div>
+                <h2>12 Today</h2>
+              </div>
+            </div>
+            <div class="card twitter">
+              <header>
+                <div class="image">
+                  <img src="images/icon-twitter.svg" alt="" />
+                </div>
+                <h3 class="title">@danieldk</h3>
+              </header>
+              <div class="stats">
+                <h1 class="title">1044</h1>
+                <p class="sub-title">followers</p>
+              </div>
+              <div class="new-stats">
+                <div class="image">
+                  <img src="images/icon-up.svg" alt="" />
+                </div>
+                <h2>99 Today</h2>
+              </div>
+            </div>
+            <div class="card instagram">
+              <header>
+                <div class="image">
+                  <img src="images/icon-instagram.svg" alt="" />
+                </div>
+                <h3 class="title">@danieldk</h3>
+              </header>
+              <div class="stats">
+                <h1 class="title">11K</h1>
+                <p class="sub-title">followers</p>
+              </div>
+              <div class="new-stats">
+                <div class="image">
+                  <img src="images/icon-up.svg" alt="" />
+                </div>
+                <h2>1099 Today</h2>
+              </div>
+            </div>
+            <div class="card youtube">
+              <header>
+                <div class="image">
+                  <img src="images/icon-youtube.svg" alt="" />
+                </div>
+                <h3 class="title">@danieldk</h3>
+              </header>
+              <div class="stats">
+                <h1 class="title">1987</h1>
+                <p class="sub-title">Subscribers</p>
+              </div>
+              <div class="new-stats">
+                <div class="image">
+                  <img src="images/icon-down.svg" alt="" />
+                </div>
+                <h2>144 Today</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section overview">
+        <div class="container">
+          <div class="sub-title">Overview - Today</div>
+          <div class="cards grid">
+            <!--Facebook status-->
+            <div class="card">
+              <header>
+                <div class="image">
+                  <img src="images/icon-facebook.svg" alt="" />
+                </div>
+                <h3 class="title">Page Views</h3>
+              </header>
+              <div class="stats">
+                <h2 class="title">87</h2>
+                <div class="new-stats">
+                  <div class="image">
+                    <img src="images/icon-up.svg" alt="" />
+                  </div>
+                  <h2>3%</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <header>
+                <div class="image">
+                  <img src="images/icon-facebook.svg" alt="" />
+                </div>
+                <h3 class="title">Likes</h3>
+              </header>
+              <div class="stats">
+                <h2 class="title">52</h2>
+                <div class="new-stats">
+                  <div class="image">
+                    <img src="images/icon-down.svg" alt="" />
+                  </div>
+                  <h2 class="down">2%</h2>
+                </div>
+              </div>
+            </div>
+            <!--Instagram status-->
+            <div class="card">
+              <header>
+                <div class="image">
+                  <img src="images/icon-instagram.svg" alt="" />
+                </div>
+                <h3 class="title">Likes</h3>
+              </header>
+              <div class="stats">
+                <h2 class="title">5462</h2>
+                <div class="new-stats">
+                  <div class="image">
+                    <img src="images/icon-up.svg" alt="" />
+                  </div>
+                  <h2>2257%</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <header>
+                <div class="image">
+                  <img src="images/icon-instagram.svg" alt="" />
+                </div>
+                <h3 class="title">Profile Views</h3>
+              </header>
+              <div class="stats">
+                <h2 class="title">52k</h2>
+                <div class="new-stats">
+                  <div class="image">
+                    <img src="images/icon-up.svg" alt="" />
+                  </div>
+                  <h2>1375%</h2>
+                </div>
+              </div>
+            </div>
+            <!--Twitter status-->
+            <div class="card">
+              <header>
+                <div class="image">
+                  <img src="images/icon-twitter.svg" alt="" />
+                </div>
+                <h3 class="title">Retweets</h3>
+              </header>
+              <div class="stats">
+                <h2 class="title">117</h2>
+                <div class="new-stats">
+                  <div class="image">
+                    <img src="images/icon-up.svg" alt="" />
+                  </div>
+                  <h2>303%</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <header>
+                <div class="image">
+                  <img src="images/icon-twitter.svg" alt="" />
+                </div>
+                <h3 class="title">Likes</h3>
+              </header>
+              <div class="stats">
+                <h2 class="title">507</h2>
+                <div class="new-stats">
+                  <div class="image">
+                    <img src="images/icon-up.svg" alt="" />
+                  </div>
+                  <h2>553%</h2>
+                </div>
+              </div>
+            </div>
+            <!--Youtube status-->
+            <div class="card">
+              <header>
+                <div class="image">
+                  <img src="images/icon-youtube.svg" alt="" />
+                </div>
+                <h3 class="title">Likes</h3>
+              </header>
+              <div class="stats">
+                <h2 class="title">107</h2>
+                <div class="new-stats">
+                  <div class="image">
+                    <img src="images/icon-down.svg" alt="" />
+                  </div>
+                  <h2 class="down">19%</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <header>
+                <div class="image">
+                  <img src="images/icon-youtube.svg" alt="" />
+                </div>
+                <h3 class="title">Total Views</h3>
+              </header>
+              <div class="stats">
+                <h2 class="title">1407</h2>
+                <div class="new-stats">
+                  <div class="image">
+                    <img src="images/icon-down.svg" alt="" />
+                  </div>
+                  <h2 class="down">12%</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/dkhenrique/dkhenrique" target="_blank"
+          >Daniel Henrique</a
+        >.
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
